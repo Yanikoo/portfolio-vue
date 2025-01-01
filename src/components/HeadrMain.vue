@@ -10,8 +10,9 @@
         технологиями, такими как <span class="decorations">Vue.js</span> на языке
         <span class="decorations">JavaScript</span>, что позволяет мне воплощать в жизнь различные
         идеи и концепции. Я увлечен адаптивным дизайном и оптимизацией производительности
-        приложений, чтобы обеспечить пользователям лучший опыт. В моем <a href="">портфолио</a> вы
-        найдете проекты, которые отражают мой подход к разработке и внимание к деталям.
+        приложений, чтобы обеспечить пользователям лучший опыт. В моем
+        <span class="decorations2"><a href="#portfolio">портфолио</a></span> вы найдете проекты,
+        которые отражают мой подход к разработке и внимание к деталям.
       </p>
 
       <div class="container__location">
@@ -181,5 +182,42 @@ export default {}
     opacity: 0.5;
     transform: scale(1.4);
   }
+}
+.decorations2 {
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+  margin: 0 8px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: #ff0000;
+  }
+  25% {
+    transform: scale(1.1);
+    color: #00ff00;
+  }
+  50% {
+    transform: scale(1);
+    color: #0000ff;
+  }
+  75% {
+    transform: scale(1.1);
+    color: #ff00ff;
+  }
+  100% {
+    transform: scale(1);
+    color: #ff0000;
+  }
+}
+
+.decorations2 a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.decorations2 a:hover {
+  color: #ff0000;
 }
 </style>

@@ -3,10 +3,10 @@
     <nav :class="['navbar', { 'dark-mode': isDarkMode }]">
       <img src="../assets/img/vuelog.png" alt="" width="90" height="40" />
       <ul class="navbar__list">
-        <li><a href="#">Технологии</a></li>
-        <li><a href="#">Портфолио</a></li>
-        <li><a href="#">Об мне</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="#stack">Технологии</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#section3">Об мне</a></li>
+        <li><a href="#section4">Контакты</a></li>
       </ul>
       <ThemeToggle @toggle-theme="toggleTheme" />
       <!-- Используйте ваш новый компонент -->
