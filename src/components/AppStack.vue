@@ -377,6 +377,7 @@ export default {}
     background-color: #d1d5db;
     border-radius: 12px;
     margin-bottom: 16px;
+    margin-top: 10px;
   }
   &__text {
     font-size: 20px;
