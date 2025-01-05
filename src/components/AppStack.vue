@@ -1,5 +1,5 @@
 <template>
-  <div class="container" id="stack">
+  <div class="container">
     <div class="container">
       <h2 class="container__title">Технологии</h2>
       <p class="container__text">
@@ -382,7 +382,7 @@ export default {}
   &__text {
     font-size: 20px;
     font-weight: lowercase;
-    color: #4b5563;
+    color: #ffffff;
     margin-bottom: 48px;
   }
   &__img {
@@ -396,7 +396,6 @@ export default {}
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 5px;
     }
   }
 }

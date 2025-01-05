@@ -66,7 +66,7 @@ export default {}
   width: 1152px;
   height: 480px;
   border-radius: 12px;
-  // background-color: #374151;
+  // background-color
 
   &__img-block {
     width: 575px;

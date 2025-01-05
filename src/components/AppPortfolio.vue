@@ -82,7 +82,7 @@ export default {
   &__text {
     font-size: 20px;
     font-weight: lowercase;
-    color: #4b5563;
+    color: #ffffff;
     margin-bottom: 48px;
   }
   &__block {
@@ -98,7 +98,7 @@ export default {
     height: 30px;
     font-size: 20px;
     font-weight: lowercase;
-    color: #4b5563;
+    color: #ffffff;
     background-color: #10b981;
     border-radius: 12px;
     margin-bottom: 16px;
