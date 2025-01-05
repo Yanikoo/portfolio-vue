@@ -362,13 +362,13 @@ export default {}
 
 <style scoped lang="scss">
 .container {
-  margin-top: -40px;
+  // margin-top: -40px;
   width: 100%;
   height: 560px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #111827;
   &__title {
     font-size: 20px;
     padding: 0 10px;

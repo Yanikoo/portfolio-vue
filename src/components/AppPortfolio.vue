@@ -67,7 +67,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 96px;
-  background-color: #f3f4f6;
+  background-color: #1f2937;
   margin-top: -40px;
   &__title {
     font-size: 20px;

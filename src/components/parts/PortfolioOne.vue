@@ -56,13 +56,7 @@
 </template>
 
 <script>
-export default {
-  name: 'ComponentName',
-  data() {
-    return {}
-  },
-  methods: {},
-}
+export default {}
 </script>
 
 <style lang="scss">
@@ -72,6 +66,7 @@ export default {
   width: 1152px;
   height: 480px;
   border-radius: 12px;
+  // background-color: #374151;
 
   &__img-block {
     width: 575px;
@@ -98,13 +93,14 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 25px;
+
+    // margin: 25px;
   }
   &__title {
     font-size: 26px;
     font-weight: bold;
     color: #4b5563;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
   }
   &__text {
     font-size: 20px;
@@ -117,14 +113,12 @@ export default {
     font-size: 20px;
     width: 480px;
     height: auto;
-    gap: 16px;
+    // gap: 16px;
     font-weight: lowercase;
     color: #4b5563;
-    margin-top: 32px;
-    margin-bottom: 20px;
   }
   &__element p {
-    padding: 10px 12px;
+    // padding: 10px 12px;
     font-weight: lowercase;
     color: #4b5563;
     background-color: #d1d5db;

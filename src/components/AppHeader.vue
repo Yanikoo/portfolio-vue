@@ -10,8 +10,8 @@
       </ul>
       <ThemeToggle @toggle-theme="toggleTheme" />
     </nav>
+    <HeadrMain />
   </div>
-  <HeadrMain />
 </template>
 
 <script>
@@ -36,11 +36,10 @@ export default {
 <style scoped lang="scss">
 .container {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  margin-bottom: 90px;
+  background-color: #d1d5db;
 }
 .navbar {
   height: 68px;

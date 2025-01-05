@@ -114,8 +114,10 @@ export default {}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  // width: 100%;
+  // max-width: 1440px;
   height: 552px;
+
   &__title {
     width: 600px;
     height: 360px;
@@ -130,7 +132,7 @@ export default {}
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 7680px;
+    width: 768px;
     height: 56px;
     margin-top: 30px;
 

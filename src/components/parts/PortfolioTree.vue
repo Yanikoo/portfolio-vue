@@ -6,19 +6,20 @@
       </a>
     </div>
     <div class="main__block">
-      <h3 class="main__title">GetWatch</h3>
+      <h3 class="main__title">Магазин Sneaker</h3>
       <p class="main__text">
-        Простой одностраничный лэндинг с картинками, кнопками и текстом. Верста написана с
-        методологией БЭМ. С переиспользуемой структурой и стилями.
+        SPA с использованием Vue 3 с поиском и сортировкой по категориям связсь с бэкендом, с
+        корзиной товоров и оформлением заказа. Для стилей используется TailwindCSS.
       </p>
       <div class="main__element">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JS</p>
-        <p>SVG</p>
+        <p>Vue 3</p>
+        <p>Vue Router</p>
+        <p>TailwindCSS</p>
+        <p>Axios</p>
         <p>GitHub</p>
-        <p>BEM</p>
-        <p>Figma</p>
+        <p>Composition API</p>
+        <p>Options AP</p>
+        <p>Prettier</p>
       </div>
       <a href="https://project-get-wach.vercel.app/#" target="_blank">
         <svg
@@ -54,3 +55,12 @@
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+.main {
+  &__block {
+    display: flex;
+    margin-top: 0px;
+  }
+}
+</style>
