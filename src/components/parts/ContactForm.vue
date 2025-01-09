@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-const WEB3FORMS_ACCESS_KEY = 'YOUR_ACCESS_KEY_HERE'
+const WEB3FORMS_ACCESS_KEY = 'd6cd23a4-f794-4ec8-bbdc-b4aea8735409'
 const name = ref('')
 const email = ref('')
 const message = ref('')
@@ -22,6 +22,10 @@ const submitForm = async () => {
   const result = await response.json()
   if (result.success) {
     console.log(result)
+
+    name.value = ''
+    email.value = ''
+    message.value = ''
   }
 }
 </script>
@@ -50,8 +54,8 @@ const submitForm = async () => {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.897);
+  background-color: #1f2937;
 }
 
 .form-input,
