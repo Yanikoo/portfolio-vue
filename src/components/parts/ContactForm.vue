@@ -49,7 +49,6 @@ const submitForm = async () => {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;

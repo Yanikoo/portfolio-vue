@@ -1,24 +1,22 @@
 <template>
   <div class="container">
     <nav class="navbar">
-      <img src="../assets/img/vuelog.png" alt="" width="90" height="40" />
+      <!-- <img src="../assets/img/vuelog.png" alt="" width="90" height="40" /> -->
       <ul class="navbar__list">
         <li><a href="#stack">Технологии</a></li>
         <li><a href="#portfolio">Портфолио</a></li>
         <li><a href="#section3">Об мне</a></li>
         <li><a href="#section4">Контакты</a></li>
       </ul>
-      <ThemeToggle @toggle-theme="toggleTheme" />
     </nav>
     <HeadrMain />
   </div>
 </template>
 
 <script>
-import ThemeToggle from './ThemeToggle.vue'
 import HeadrMain from './HeadrMain.vue'
 export default {
-  components: { ThemeToggle, HeadrMain },
+  components: { HeadrMain },
   data() {
     return {
       isDarkMode: false, // Начальное состояние (светлый режим)
@@ -44,9 +42,9 @@ export default {
 .navbar {
   height: 68px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  position: fixed; // Фиксированное положение
+  position: fixed;
   background: #e5e7eb;
   margin: 0;
   top: 0;
