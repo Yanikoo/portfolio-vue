@@ -35,7 +35,7 @@ export default {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  // padding: 0 20px;
   box-sizing: border-box;
   background-color: #d1d5db;
 }

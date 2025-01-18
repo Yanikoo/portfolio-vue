@@ -168,9 +168,74 @@ export default {
     align-items: center;
     justify-content: center;
     margin: auto;
-    // width: 575px;
-    // height: 600px;
-    // background-color: #1f2937;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    &__block {
+      width: 1152px;
+    }
+  }
+}
+
+@media screen and (max-width: 1169px) {
+  .container {
+    &__block {
+      width: 768px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__form {
+      width: 350px;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    &__block {
+      width: 375px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__form {
+      width: 250px;
+      margin-bottom: 35px;
+    }
+    &__card {
+      width: 375px;
+    }
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .container__text {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    &__title {
+      font-size: 15px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+    &__block {
+      width: 320px;
+    }
+    &__form {
+      width: 250px;
+      margin-bottom: 35px;
+    }
+    &__card {
+      width: 320px;
+    }
   }
 }
 </style>

@@ -115,7 +115,7 @@ export default {}
   justify-content: space-between;
   align-items: center;
   // width: 100%;
-  // max-width: 1440px;
+  max-width: 1440px;
   height: 552px;
 
   &__title {
@@ -221,5 +221,34 @@ export default {}
 
 .decorations2 a:hover {
   color: #ff0000;
+}
+
+@media (max-width: 941px) {
+  .container {
+    height: 100vh;
+
+    &__img {
+      display: none;
+    }
+
+    &__title {
+      width: 100%;
+      padding: 0 10px;
+    }
+    &__title-text {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .container__location-icon2 {
+    width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    padding-bottom: 50px;
+  }
 }
 </style>

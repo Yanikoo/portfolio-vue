@@ -1,4 +1,5 @@
 @import './base.css';
+@import '@/assets/media.css';
 /* @import './variable.css'; */
 
 #app {
