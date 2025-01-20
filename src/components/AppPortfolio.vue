@@ -60,13 +60,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/assets/media.css';
 .container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 96px;
   background-color: #1f2937;
   margin-top: -40px;
   &__title {
@@ -86,10 +84,8 @@ export default {
     margin-bottom: 48px;
   }
   &__block {
-    width: 1152px;
-    height: 480px;
     border-radius: 15px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 16px rgba(250, 249, 249, 0.856);
     background-color: #ffffff;
     margin: 24px;
   }

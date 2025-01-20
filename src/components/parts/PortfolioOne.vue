@@ -55,76 +55,65 @@
   </div>
 </template>
 
-<script>
-export default {}
-</script>
-
 <style lang="scss">
-.main {
-  display: flex;
-  justify-content: space-between;
-  width: 1152px;
-  height: 480px;
-  border-radius: 12px;
-  // background-color
+// @import '@/assets/media.css';
+// .main {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   max-width: 1152px;
+//   height: auto;
+//   border-radius: 12px;
+//   // background-color: #6b7280;
 
-  &__img-block {
-    width: 575px;
-    height: 480px;
-    background-color: #e5e7eb;
-    border-radius: 12px 0 0 12px;
-  }
-  &__img {
-    width: 450px;
-    height: 380px;
-    display: block;
-    align-items: center;
-    border-radius: 12px;
-    margin: 48px;
-    transition: transform 0.5s ease;
-  }
-  &__img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  }
-  &__block {
-    width: 575px;
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    // margin: 25px;
-  }
-  &__title {
-    font-size: 26px;
-    font-weight: bold;
-    color: #4b5563;
-    // margin-bottom: 16px;
-  }
-  &__text {
-    font-size: 20px;
-    font-weight: lowercase;
-    color: #4b5563;
-  }
-  &__element {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    width: 480px;
-    height: auto;
-    // gap: 16px;
-    font-weight: lowercase;
-    color: #4b5563;
-  }
-  &__element p {
-    // padding: 10px 12px;
-    font-weight: lowercase;
-    color: #4b5563;
-    background-color: #d1d5db;
-    border-radius: 19px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-}
+//   &__img-block {
+//     flex: 1;
+//     min-width: 300px;
+//     height: auto;
+//   }
+//   &__img {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+//     align-items: center;
+//     border-radius: 12px;
+//     margin: 24px;
+//     transition: transform 0.5s ease;
+//   }
+//   &__img:hover {
+//     transform: scale(1.05);
+//     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+//   }
+//   &__block {
+//     flex: 1;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//   }
+//   &__title,
+//   &__text {
+//     color: #4b5563;
+//     margin-bottom: 16px;
+//   }
+//   &__title {
+//     font-size: 26px;
+//   }
+//   &__text {
+//     font-size: 20px;
+//   }
+//   &__element {
+//     display: flex;
+//     flex-wrap: wrap;
+//     font-size: 20px;
+//     font-weight: lowercase;
+//     color: #4b5563;
+//   }
+//   &__element p {
+//     color: #4b5563;
+//     background-color: #d1d5db;
+//     border-radius: 19px;
+//     box-sizing: border-box;
+//     text-align: center;
+//   }
+// }
 </style>

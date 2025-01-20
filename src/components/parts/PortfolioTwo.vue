@@ -63,23 +63,23 @@ export default {}
 .main {
   display: flex;
   justify-content: space-between;
-  width: 1152px;
-  height: 480px;
-  border-radius: 12px;
+  max-width: 1152px;
+  // height: 480px;
+  // border-radius: 12px;
 
   &__img-block {
-    width: 575px;
-    height: 480px;
+    // width: 575px;
+    // height: 480px;
     background-color: #e5e7eb;
-    border-radius: 12px 0 0 12px;
+    border-radius: 12px;
   }
   &__img {
-    width: 480px;
-    height: 380px;
+    max-width: 480px;
+    // height: 380px;
     display: block;
     align-items: center;
-    border-radius: 12px;
-    margin: 48px;
+    // border-radius: 12px;
+    // margin: 48px;
     transition: transform 0.5s ease;
   }
   &__img:hover {
@@ -87,8 +87,8 @@ export default {}
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   }
   &__block {
-    width: 575px;
-    height: 480px;
+    max-width: 575px;
+    // height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +109,7 @@ export default {}
     display: flex;
     flex-wrap: wrap;
     font-size: 20px;
-    width: 480px;
+    max-width: 480px;
     height: auto;
     gap: 16px;
     font-weight: lowercase;

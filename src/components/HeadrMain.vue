@@ -114,9 +114,9 @@ export default {}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // width: 100%;
   max-width: 1440px;
   height: 552px;
+  padding: 0 100px;
 
   &__title {
     width: 600px;
@@ -124,7 +124,7 @@ export default {}
     &-text {
       font-size: 40px;
       font-weight: bold;
-      color: #4b5563;
+      // color: #4b5563;
     }
   }
 
@@ -156,7 +156,6 @@ export default {}
   &__img {
     width: 290px;
     height: 360px;
-    // margin-left: 48px;
     box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.3);
   }
   &__img:hover {

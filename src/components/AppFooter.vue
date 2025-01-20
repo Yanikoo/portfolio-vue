@@ -1,5 +1,10 @@
 <template>
-  <div class="container">sd</div>
+  <div class="container">
+    <p>
+      Copyright &copy; 2024
+      <a href="https://github.com/Yanikoo/portfolio-vue" target="_blank">GitHub</a>
+    </p>
+  </div>
 </template>
 
 <style scoped>
@@ -10,5 +15,12 @@
   box-sizing: border-box;
   background-color: #d1d5db;
   height: 68px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
 }
 </style>

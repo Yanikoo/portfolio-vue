@@ -56,11 +56,11 @@
   </div>
 </template>
 
-<style scoped lang="scss">
-.main {
-  &__block {
-    display: flex;
-    margin-top: 0px;
-  }
-}
+<style lang="scss">
+// .main {
+//   &__block {
+//     display: flex;
+//     margin-top: 0px;
+//   }
+// }
 </style>
